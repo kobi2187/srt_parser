@@ -3,7 +3,7 @@ version: 1.0.1+1
 description: A cross-platform, simple .srt file parser that allows you to read a
   String and convert it to a list of subtitle object.
 
-authors:
+  This package is a part of the [srt_parser](https://pub.dev/packages/srt_parser)
   - Adrian Stabiszewski <as@grundid.de>
   - Arman Torkzaban <at@vo.tc>
 homepage: https://git.mant.life/arman/srt_parser
@@ -18,5 +18,5 @@ environment:
 # test: ^1.5.1
 dependencies:
   test: ^1.20.1
-dev_dependencies: 
-  mockito: ^5.1.0
+# dev_dependencies: 
+  # mockito: ^5.1.0

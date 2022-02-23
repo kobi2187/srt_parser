@@ -76,7 +76,9 @@ List<Subtitle> parseSrt(String srt) {
   final List<Subtitle> result = [];
 
   final List<String> split = splitIntoLines(srt);
-  final List<List<String>> splitChunk = splitIntoSubtitleChunks(split);
+
+  final List<List<String>> splitChunk =
+      splitIntoSubtitleChunks(split).where((element) => element.length > 0).toList();
 
   for (List<String> chunk in splitChunk) {
     final Subtitle subtitle = Subtitle();

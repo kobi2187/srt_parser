@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54490ba6-1500-4a48-8ea3-125cb29e4060" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/srt_parser.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/srt_parser.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/assets/subtitle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/assets/subtitle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/build/app.dill.track.dill.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/build/app.dill.track.dill.incremental.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/blocs/bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/blocs/bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/streams/subtitle_text_stream.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/streams/subtitle_text_stream.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/utility/file_name_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/utility/file_name_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/utility/importer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/utility/importer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/utility/parser.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/utility/parser.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/utility/word_class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/utility/word_class.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/validator/validator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/validator/validator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/lib/src/widgets/subtitle_section.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/lib/src/widgets/subtitle_section.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_unit/text_unit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../text_unit/text_unit.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2073099300">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dart" value="1" />
+          <entry key="yaml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dart" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dart" value="15" />
+          <entry key="yaml" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dart" value="15" />
+          <entry key="YAML" value="40" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/test/parser_test.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="964" />
+    <option name="y" value="1080" />
+    <option name="width" value="956" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="srt_parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="srt_parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="srt_parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="srt_parser" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="srt_parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="srt_parser" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Android/flutter/bin/cache/dart-sdk/bin" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54490ba6-1500-4a48-8ea3-125cb29e4060" name="Default Changelist" comment="" />
+      <created>1551881262657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551881262657</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="964" y="1080" width="956" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.25604397" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Dart Analysis" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Find" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32899022" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/parser_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

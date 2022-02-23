@@ -2,15 +2,47 @@ import 'dart:convert';
 
 class Range {
   Range(this.begin, this.end);
-
+  Range.empty() : this(0, 0);
+  bool get isValid => begin >= 0 && end >= 0 && begin < end;
   int begin;
   int end;
+  String get beginStr {
+    return fromMs(begin);
+  }
+
+  String get endStr {
+    return fromMs(end);
+  }
+
+  String fromMs(int ms) {
+    var d = DateTime.fromMillisecondsSinceEpoch(ms, isUtc: true);
+    var res = d.hour.toString() +
+        ":" +
+        d.minute.toString() +
+        ":" +
+        d.second.toString() +
+        "," +
+        d.millisecond.toString();
+    return res;
+  }
+
+  @override
+  String toString() {
+    // example: 01:52:45,000 --> 01:53:00,400
+    return beginStr + " --> " + endStr;
+  }
 }
 
 class Subtitle {
   int id = 0;
-  Range? range;
+  Range range = Range.empty();
   List<String> lines = [];
+
+  @override
+  String toString() {
+    var res = id.toString() + "\n" + range.toString() + "\n";
+    return res;
+  }
 }
 
 List<String> splitIntoLines(String data) {
@@ -73,13 +105,13 @@ int timeStampToMillis(int hour, int minute, int sec, int ms) {
   }
 }
 
-Range? parseBeginEnd(String line) {
+Range parseBeginEnd(String line) {
   final RegExp pattern =
-      RegExp(r'(\d\d):(\d\d):(\d\d),(\d\d\d) --> (\d\d):(\d\d):(\d\d),(\d\d\d).*');
+      RegExp(r'(\d{2}):(\d{2}):(\d{2}),(\d{3}) --> (\d\d):(\d\d):(\d\d),(\d\d\d).*');
   Match match;
   var x = pattern.firstMatch(line);
   if (x == null)
-    return null;
+    throw FormatException('no match');
   else {
     match = x;
     if (int.parse(match.group(1)!) > 23 ||

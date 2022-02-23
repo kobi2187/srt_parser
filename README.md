@@ -1,3 +1,6 @@
+forked from: https://pub.dev/packages/srt_parser
+simply added sound null safety.
+
 # .srt parser
 
 ## description

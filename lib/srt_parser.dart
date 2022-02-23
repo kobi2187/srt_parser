@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:intl/intl.dart';
 
 class Range {
   Range(this.begin, this.end);
@@ -16,13 +17,8 @@ class Range {
 
   String fromMs(int ms) {
     var d = DateTime.fromMillisecondsSinceEpoch(ms, isUtc: true);
-    var res = d.hour.toString() +
-        ":" +
-        d.minute.toString() +
-        ":" +
-        d.second.toString() +
-        "," +
-        d.millisecond.toString();
+    var res = DateFormat.Hms().format(d);
+    res += "," + d.millisecond.toString().padLeft(3, '0');
     return res;
   }
 

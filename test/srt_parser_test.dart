@@ -50,6 +50,6 @@ som om han aldrig hade existerat.
   test('parseSrt', () {
     final List<Subtitle> parsedSubtitle = parseSrt(data);
     expect(parsedSubtitle.length, 2);
-    expect(parsedSubtitle[1].range?.begin, 151567);
+    expect(parsedSubtitle[1].range.begin, 151567);
   });
 }

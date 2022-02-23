@@ -16,7 +16,7 @@ void main() {
   List<Subtitle> subtitles = parseSrt(data);
   for (Subtitle item in subtitles) {
     print('ID is: ${item.id}');
-    print('Begin is: ${item.range?.begin} and End is: ${item.range?.end}');
+    print('Begin is: ${item.range.begin} and End is: ${item.range.end}');
     for (String line in item.lines) {
       print(line);
     }

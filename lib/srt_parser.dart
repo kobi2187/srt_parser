@@ -36,9 +36,17 @@ class Subtitle {
 
   @override
   String toString() {
-    var res = id.toString() + "\n" + range.toString() + "\n";
+    var res = id.toString() + "\n" + range.toString() + "\n" + lines.join("\n");
     return res;
   }
+}
+
+String toSrt(List<Subtitle> subtitles) {
+  var res = "";
+  for (var sub in subtitles) {
+    res += sub.toString() + "\n\n";
+  }
+  return res.trim();
 }
 
 List<String> splitIntoLines(String data) {

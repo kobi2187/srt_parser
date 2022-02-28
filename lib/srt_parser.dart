@@ -35,16 +35,32 @@ class Subtitle {
   List<String> lines = [];
 
   @override
+  @override
   String toString() {
-    var res = id.toString() + "\n" + range.toString() + "\n" + lines.join("\n");
+    return toStr();
+  }
+
+  String toStr({int count = 0}) {
+    var res = "";
+    if (count == 0)
+      res = id.toString() + "\n" + range.toString() + "\n" + lines.join("\n");
+    else {
+      res = count.toString() + "\n" + range.toString() + "\n" + lines.join("\n");
+    }
     return res;
   }
 }
 
-String toSrt(List<Subtitle> subtitles) {
+String toSrt(List<Subtitle> subtitles, {bool resetIndexing = false}) {
   var res = "";
+  var count = 0;
   for (var sub in subtitles) {
-    res += sub.toString() + "\n\n";
+    if (resetIndexing) {
+      count++;
+      res += sub.toStr(count: count) + "\n\n";
+    } else {
+      res += sub.toString() + "\n\n";
+    }
   }
   return res.trim();
 }
